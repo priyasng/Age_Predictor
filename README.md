@@ -1,6 +1,8 @@
 # Age_Predictor
 
-MACHINE LEARNING AND DEEP LEARNING PROJECT
+MAJOR PROJECT 
+
+MACHINE LEARNING AND DEEP LEARNING 
 
 * Used Python, OpenCV, Kaggle, VS Code, Jupyter Notebooks, Image manipulation ,Tensor flow, Keras, Scikit,
   Matplotlib
