@@ -57,8 +57,7 @@ Steps Involved:
 As it is said “Knowledge is power - never stop learning”, I aim to do the same.  There is yet a lot to learn.Since the accuracy for this model came out to be 85% for Gender and 70% for Age,so with the  aim  to increase the accuracy , in future i'll like to add more functionalities in this model . 
 
 
-Reference
-[1] Rothe R, Timofte R, Van Gool L. Deep Expectation of Real and Apparent Age from a Single Image Without Facial Landmarks [J/OL]. International Journal of Computer Vision. 126 (2). 2018, Apr: 144–157.
+
 
 
 
