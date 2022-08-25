@@ -58,7 +58,7 @@ As it is said “Knowledge is power - never stop learning”, I aim to do the sa
 
 
 
-
+Refrence: Introduction to Machine Learning - Enthem Alpaydim
 
 
 
