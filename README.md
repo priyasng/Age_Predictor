@@ -76,6 +76,16 @@ As it is said “Knowledge is power - never stop learning”, I aim to do the sa
 9. View results
 
 
+## Sample Outputs:
+### Sample Output 1:
+![Sample Output 1]()
+
+### Sample Output 2:
+![Sample Output 2]()
+
+
+### Sample Output 3:
+![Sample Output 3]()
 
 
 
