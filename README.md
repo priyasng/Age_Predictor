@@ -1,9 +1,9 @@
 
-MACHINE LEARNING AND DEEP LEARNING PROJECT- Age Predictor
+# MACHINE LEARNING AND DEEP LEARNING PROJECT- Age Predictor
 
-Objective : Python program to build a model to predict age and gender of a person.
+## Objective : Python program to build a model to predict age and gender of a person.
 
-About the Project :
+### About the Project :
 
 Automatic age and gender classification has become relevant to an increasing amount of applications, particularly since the rise of social platforms and social media. With the advancement of technologies new features are added to our current using applications. One of such fun feature is to detect gender and age of a person who faces the camera at any instance. With the help of this project I tried to create a similar experience. The basic idea behind this project was to be able to understand the concepts of deep learning and neural networks.
 
@@ -12,22 +12,22 @@ In this Python Project, I had used Deep Learning to accurately identify the gend
 While traditional learning models analyse data using a linear approach, the hierarchical function of Deep Learning systems is designed to process and analyse data in a nonlinear approach.As new advances are being made in this domain, it is helping ML and Deep Learning experts to design innovative and functional Deep Learning projects.
 
 
-Model:
+## Model:
 
 For basic training of the model I have used the VGG16 neural network architecture (CNN ) in order to make predictions on a given image. With the help of GUI I created an interactive page where the user can give inputs (image) and our model foretells the age and gender of the person in that image. 
 
 
-Dataset :
+## Dataset :
 
 For this python project, I had used the Kaggle dataset; the dataset is available in the public domain and you can find it here. This dataset serves as a benchmark for face photos and is inclusive of various real-world imaging conditions like noise, lighting, pose, and appearance. The images have been collected from UTKFace albums. It has a total of 660000 photos of 2,284 subjects in eight age ranges (as mentioned above) and is about 354 MB in size. The models I used had been trained on this dataset.
 
 
-Technical Stack used:
+## Technical Stack used:
 
 Python, OpenCV, Kaggle, VS Code,Jupyter Notebooks, Image manipulation ,Tensor flow, Keras, Scikit, Matplotlib
                         
                 
-Steps Involved:
+## Steps Involved:
 
 1.Importing libraries and dataset:
 
