@@ -19,7 +19,7 @@ For basic training of the model I have used the VGG16 neural network architectur
 
 ## Dataset :
 
-For this python project, I had used the Kaggle dataset; the dataset is available in the public domain and you can find it here. This dataset serves as a benchmark for face photos and is inclusive of various real-world imaging conditions like noise, lighting, pose, and appearance. The images have been collected from UTKFace albums. It has a total of 660000 photos of 2,284 subjects in eight age ranges (as mentioned above) and is about 354 MB in size. The models I used had been trained on this dataset.
+For this python project, I had used the Kaggle dataset; the dataset is available in the public domain and you can find it here. This dataset serves as a benchmark for face photos and is inclusive of various real-world imaging conditions like noise, lighting, pose, and appearance. The images have been collected from UTKFace albums. It has a total of 660000 photos of 2,284 subjects in eight age ranges (as mentioned above) and is about 347 MB in size. The models I used had been trained on this dataset.
 
 
 ## Technical Stack used:
@@ -53,9 +53,6 @@ Python, OpenCV, Kaggle, VS Code,Jupyter Notebooks, Image manipulation ,Tensor fl
 8.Creation of GUI
 
 
- 
-As it is said “Knowledge is power - never stop learning”, I aim to do the same.  There is yet a lot to learn.Since the accuracy for this model came out to be 85% for Gender and 70% for Age,so with the  aim  to increase the accuracy , in future i'll like to add more functionalities in this model . 
-
 
 ## To simply run this model:
 1. Clone the repository
@@ -78,15 +75,20 @@ As it is said “Knowledge is power - never stop learning”, I aim to do the sa
 
 ## Sample Outputs:
 ### Sample Output 1:
-![Sample Output 1]()
+![Sample Output 1](https://github.com/priyasng/Age_Predictor/blob/main/images/uploadimage.png)
 
-### Sample Output 2:
-![Sample Output 2]()
+### Model Accuracy:
+![Model Accuracy](https://github.com/priyasng/Age_Predictor/blob/main/images/model%20accuracy.jpeg)
 
 
-### Sample Output 3:
-![Sample Output 3]()
+### Predicted Age:
+![ Predicted Age](https://github.com/priyasng/Age_Predictor/blob/main/images/predicted%20age.jpeg)
 
+### Test Case :
+![Test Case ](https://github.com/priyasng/Age_Predictor/blob/main/images/Test%20case%201.jpeg)
+
+
+As it is said “Knowledge is power - never stop learning”, I aim to do the same.  There is yet a lot to learn.Since the accuracy for this model came out to be 91% for Female and 87% for Male  for predicting age and gender ,so with the  aim  to increase the accuracy , in future i'll like to add more functionalities in this model . 
 
 
 
