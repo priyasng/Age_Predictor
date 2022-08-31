@@ -64,7 +64,10 @@ Python, OpenCV, Kaggle, VS Code,Jupyter Notebooks, Image manipulation ,Tensor fl
 
 ## Sample Outputs:
 ### Sample Output 1:
-![Sample Output 1](https://github.com/priyasng/Age_Predictor/blob/main/images/uploadimage.png)
+![Sample Output 1](https://github.com/priyasng/Age_Predictor/blob/main/images/Sample%20output.png)
+
+### Sample Output 2:
+![Sample Output 2](https://github.com/priyasng/Age_Predictor/blob/main/images/Sample%20Output%202.png)
 
 ### Model Accuracy:
 ![Model Accuracy](https://github.com/priyasng/Age_Predictor/blob/main/images/model%20accuracy.jpeg)
