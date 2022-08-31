@@ -27,12 +27,12 @@ sign_image=Label(top)
 def Detect(file_path):
     global label_packed
     image=Image.open(file_path)
-    image=image.resize(48,48,3)
+    image=image.resize((48,48))
     image=numpy.expand_dims(image,axis=0)
 
     image=np.array(image)
     image=np.delete(image,0,1)
-    image=np.resize(image,(48,48,30))
+    image=np.resize(image,(48,48,3))
     print(image.shape)
     sex_f=["Male","Female"]
     image=np.array([image])/225
@@ -44,38 +44,33 @@ def Detect(file_path):
     label1.configure(foreground="#011638",text=age)
     label2.configure(foreground="#011638",text=sex_f[sex])
 
-    # Defining Show_detect button function
-    def show_Detect_button(file_path):
-        Detect_b=Button(top,text="Detect Image",command=lambda: Detect(file_path),padx=10,pady=5)
-        Detect_b.configure(background="#364156",foreground='white',font=('arial',10,'bold'))
-        Detect_b.place(relax=0.790,rely=0.46)
+# Defining Show_detect button function
+def show_Detect_button(file_path):
+    Detect_b=Button(top,text="Detect Image",command=lambda: Detect(file_path),padx=10,pady=5)
+    Detect_b.configure(background="#364156",foreground='white',font=('arial',10,'bold'))
+    Detect_b.place(relx=0.790,rely=0.46)
 
-        # Defining Upload Image Function
-        def upload_image():
-            try:
-                file_path=filedialog.askopenfilename()
-                uploaded=Image.open(file_path)
-                uploaded.thumbnail(((top.winfo_width()/2.25),(top.winfo_height()/2.25)))
-                im=ImageTk.PhotoImage(uploaded)
+# Defining Upload Image Function
+def upload_image():
+    try:
+        file_path=filedialog.askopenfilename()
+        uploaded=Image.open(file_path)
+        uploaded.thumbnail(((top.winfo_width()/2.25),(top.winfo_height()/2.25)))
+        im=ImageTk.PhotoImage(uploaded)
 
-                sign_image.configure(image=im)
-                sign_image.image=im
-                label1.configure(text='')
-                label2.configure(text='')
-                show_Detect_button(file_path)
-            except:
-                    pass
-
-
-        upload=Button(top,text="Upload an Image",command=upload_image,padx=10,pady=5)
-        upload.configure(background="#364156",foreground='white',font=('arial',10,'bold')) 
-        upload.pack(side='bottom',pady=50)
-        sign_image.pack(side="bottom",expand=True)
+        sign_image.configure(image=im)
+        sign_image.image=im
+        label1.configure(text='')
+        label2.configure(text='')
+        show_Detect_button(file_path)
+    except:
+        pass
 
 
-                
-
-
+upload=Button(top,text="Upload an Image",command=upload_image,padx=10,pady=5)
+upload.configure(background="#364156",foreground='white',font=('arial',10,'bold')) 
+upload.pack(side='bottom',pady=50)
+sign_image.pack(side="bottom",expand=True)
 
 label1.pack(side="bottom",expand=True)
 label2.pack(side="bottom",expand=True)
