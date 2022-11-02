@@ -1,5 +1,5 @@
 
-# Age Predictor - MACHINE LEARNING AND DEEP LEARNING PROJECT 
+# Genrator - MACHINE LEARNING AND DEEP LEARNING PROJECT 
 
 ## Objective : Python program to build a model to predict age and gender of a person.
 
